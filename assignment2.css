@@ -23,7 +23,7 @@ nav ul{
     margin: 0;
     padding: 14px;
     border: 1px solid;
-    margin-left: 500px;
+    margin-left: 1400px;
     text-decoration: none;
 
     /* width: 100%; */
@@ -65,8 +65,10 @@ button{
 .aside-bar-left{
     width: 20%;
     height: 510px;
-    border: 1px solid;
+    /* border: 1px solid; */
     float: left;
+    padding-top: 100px;
+    text-align: center;
 }
 
 .aside-bar-left ul li{
@@ -80,17 +82,19 @@ button{
 }
 
 .aside-bar-right{
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 79.7%;
     height: 510px;
     float: left;
+    padding-top: 100px;
+
 }
 
 .aside-bar-right-child{
     /* display: inline-block; */
     height: 510px;
     width: 25%;
-    border: 1px solid;
+    /* border: 1px solid; */
     padding-left: 75px;
     padding-right: 75px;
     float: left;
@@ -98,4 +102,69 @@ button{
 
 .aside-bar-right-child p{
     font-size: 30px;
+}
+
+.footer{
+    /* border: 1px solid; */
+    width: 100%;
+    height: 600px;
+    float:left;
+    background-color: #192933;
+    margin-top: 100px;
+    
+}
+
+.footer h1{
+    color: rgb(156, 151, 151);
+    margin-left: 45px;
+}
+
+
+
+.ft-1{
+    /* border: 1px solid; */
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 15%;
+    margin-top: 100px;
+    color: white;
+    
+}
+
+.ft-1 li{
+    list-style: none;
+    font-size: 25px;
+}
+
+.ft-2{
+    /* border: 1px solid; */
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 15%;
+    color: white;
+    margin-top: 50px;
+    
+}
+
+.ft-2 li{
+    list-style: none;
+    font-size: 25px;
+}
+
+.ft-3{
+    /* border: 1px solid; */
+    text-align: center;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 15%;
+    color: white;
+    margin-top: -250px;
+    
+}
+
+.ft-3 li{
+    list-style: none;
+    font-size: 25px;
 }
